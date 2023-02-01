@@ -8,7 +8,7 @@ print("Введите количество долек по вертикали")
 m = int(input())
 print("Введите количество долек, которые нужно отломить")
 k = int(input())
-if k == n or k == m or k%2 == 0:
+if k == n or k == m or k%n == 0 or k%m ==0 :
     print ("yes")
 else:
     print ("no")
