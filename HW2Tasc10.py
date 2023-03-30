@@ -13,6 +13,6 @@ for i in range(N):
     elif side ==1:
         tails+=1
 if eagle>tails:
-    print(tails)
+    print(f"Нужно перевернуть {tails} монет")
 else: 
     print(f"Нужно перевернуть {eagle} монет")
